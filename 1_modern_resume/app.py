@@ -7,7 +7,7 @@ load_dotenv(override=True)
 
 def on_submit(question, history):
     history.append({"role": "user", "content": question})
-    answer, _ = answer_question(question, history)
+    answer = answer_question(question, history)
     history.append({"role": "assistant", "content": answer})
     return history, history, ""
 
