@@ -4,6 +4,10 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 
 
+llm_debater = LLM(model="ollama/gpt-oss:20b-cloud",base_url="http://localhost:11434")
+llm_judge = LLM(model="ollama/gpt-oss:120b-cloud",base_url="http://localhost:11434")
+
+
 @CrewBase
 class Debate():
     """Debate crew"""
@@ -14,6 +18,7 @@ class Debate():
     @agent
     def debater(self) -> Agent:
         return Agent(
+            llm=llm_debater,
             config=self.agents_config['debater'],
             verbose=True
         )
@@ -21,6 +26,7 @@ class Debate():
     @agent
     def judge(self) -> Agent:
         return Agent(
+            llm=llm_judge,
             config=self.agents_config['judge'],
             verbose=True
         )
