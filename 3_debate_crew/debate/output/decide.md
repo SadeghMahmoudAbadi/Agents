@@ -1,0 +1,11 @@
+The Opposition, arguing against the motion that "Countries should accept cryptocurrencies as legal tender," presents the more convincing case based purely on the merits and risks outlined in the arguments provided.
+
+The Opposition successfully attacks the core functionality of legal tender, which is paramount to a stable economy. The argument that the "inherent, acute volatility of decentralized cryptocurrencies renders them disastrous for these essential functions" (unit of account, store of value) is a critical and devastating flaw. If a currency cannot be reliably used for setting wages, long-term contracts, or stable pricing, then the efficiency gains touted by the Proposition become irrelevant, as the underlying economic stability is immediately compromised. This threat to stability outweighs the benefits of reduced remittance costs.
+
+Furthermore, the Opposition raises indispensable concerns regarding state authority and security:
+1.  **Regulatory Integrity:** The claim that granting legal tender status "dismantles the state’s necessary oversight mechanisms," enabling massive illicit finance through the evasion of AML/CTF protocols and severely complicating tax collection, presents a systemic risk to national security and public finance that the Proposition fails to adequately counter.
+2.  **Monetary Sovereignty:** The argument that adopting an "uncontrollable and unbacked" system leads to a loss of the ability to manage macroeconomic policy (ceding monetary sovereignty) reinforces the primary instability risk.
+
+While the Proposition offers compelling advantages in terms of modernization, transaction efficiency, and financial inclusion—which are highly desirable goals—these benefits are predicated on adopting a technology that, in its current form (as presented in the arguments), fundamentally fails the test of reliability required for a national legal tender. The Opposition’s focus on stability, security, and the essential duties of fiscal governance provides a stronger, more pragmatic basis for decision-making.
+
+**Decision:** The Opposition is more convincing.
