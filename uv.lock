@@ -76,7 +76,7 @@ requires-dist = [
     { name = "langgraph", specifier = ">=0.3.18" },
     { name = "langgraph-checkpoint-sqlite", specifier = ">=2.0.6" },
     { name = "langsmith", specifier = ">=0.3.18" },
-    { name = "litellm", specifier = ">=1.77.5" },
+    { name = "litellm", specifier = ">=1.75.3" },
     { name = "lxml", specifier = ">=5.3.1" },
     { name = "mcp", extras = ["cli"], specifier = ">=1.5.0" },
     { name = "mcp-server-fetch", specifier = ">=2025.1.17" },

@@ -1,7 +1,7 @@
 [project]
-name = "coder"
+name = "engineering_team"
 version = "0.1.0"
-description = "coder using crewAI"
+description = "engineering_team using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
@@ -10,16 +10,17 @@ dependencies = [
     "email-validator>=2.3.0",
     "fastapi>=0.124.4",
     "fastapi-sso>=0.17.0",
+    "gradio>=6.1.0",
     "litellm>=1.75.3",
 ]
 
 [project.scripts]
-coder = "coder.main:run"
-run_crew = "coder.main:run"
-train = "coder.main:train"
-replay = "coder.main:replay"
-test = "coder.main:test"
-run_with_trigger = "coder.main:run_with_trigger"
+engineering_team = "engineering_team.main:run"
+run_crew = "engineering_team.main:run"
+train = "engineering_team.main:train"
+replay = "engineering_team.main:replay"
+test = "engineering_team.main:test"
+run_with_trigger = "engineering_team.main:run_with_trigger"
 
 [build-system]
 requires = ["hatchling"]

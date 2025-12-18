@@ -4,8 +4,8 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 
 
-llm_debater = LLM(model="ollama/gpt-oss:20b-cloud",base_url="http://localhost:11434")
-llm_judge = LLM(model="ollama/gpt-oss:120b-cloud",base_url="http://localhost:11434")
+llm_debater = LLM(model="ollama/gpt-oss:20b-cloud", base_url="http://localhost:11434")
+llm_judge = LLM(model="ollama/gpt-oss:120b-cloud", base_url="http://localhost:11434")
 
 
 @CrewBase
